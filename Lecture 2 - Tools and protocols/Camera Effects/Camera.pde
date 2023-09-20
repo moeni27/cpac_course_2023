@@ -65,7 +65,7 @@ void draw() {
       break;
     case '5':   // ROTATE
       imageMode(CORNER);
-      tint(255,0,0);
+      tint(255,0,0); // filter based on the color
       image(cam,0,0,width/2,height/2);
       tint(0,255,0);
       image(cam,width/2,0,width/2,height/2);
