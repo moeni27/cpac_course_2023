@@ -5,7 +5,7 @@ Capture cam;
 void setup() {
   size(640, 480);
 
-  String[] cameras = Capture.list();
+  String[] cameras = Capture.list(); // list of collected cameras
   
   if (cameras.length == 0) {
     println("There are no cameras available for capture.");
