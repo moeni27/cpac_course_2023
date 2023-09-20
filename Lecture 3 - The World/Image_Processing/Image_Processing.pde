@@ -19,7 +19,7 @@ void draw(){
     for (int y=0;y<height/2;y++){
       for (int x=0;x<width;x++){
         color c = get(x, y); 
-        set(x,y,c+100);
+        set(x,y,c+100);  // Works on the display of the image.
       }
     }*/
     
