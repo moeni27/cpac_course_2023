@@ -25,7 +25,7 @@ void draw()
 {
   background(0);
   
-  intensity = amp.analyze();
+  intensity = amp.analyze(); // analize the magnitude of intensity
   
   fill((intensity+0)*10*255,(intensity+0)*10*255,(intensity+0)*10*255);
   rect(0, 0, width, height*intensity*10);
