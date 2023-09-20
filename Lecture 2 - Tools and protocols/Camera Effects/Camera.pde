@@ -83,5 +83,5 @@ void draw() {
 
 
 void keyPressed(){
-  effectNum = key;
+  effectNum = key; // built in variable, number of the key
 }
