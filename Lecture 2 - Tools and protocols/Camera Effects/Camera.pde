@@ -52,7 +52,7 @@ void draw() {
       image(cam,width/2,height/2);
       break;
     case '3':   // ROTATE
-      imageMode(CENTER);
+      imageMode(CENTER); // main coordinate is the center. (0,0) is the center of the image
       translate(width/2,height/2);
       scale(0.5,0.5);
       rotateZ(radians(60));
